@@ -1,0 +1,1033 @@
+.about-section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 0;
+  display: grid;
+  grid-template-areas: 'bioinfo bioimage';
+  grid-template-columns: repeat(2, 1fr); }
+  .about-section .about-info {
+    grid-area: bioinfo;
+    padding: 3rem 1rem 2rem 1rem; }
+  .about-section .bio {
+    padding: 1rem 1rem; }
+  .about-section .icons {
+    margin: 0.5rem 0;
+    padding: 0 1rem; }
+    .about-section .icons a {
+      padding-right: 1rem; }
+      .about-section .icons a:hover {
+        color: #eece1a;
+        transition: all 0.5s ease-out; }
+  .about-section .about-img {
+    grid-area: bioimage;
+    margin: auto auto;
+    margin-top: 5.5rem; }
+    .about-section .about-img .bio-img {
+      max-width: 90%;
+      margin: auto;
+      border-radius: 50%;
+      border: #eece1a 3px solid; }
+
+.education-skills-section {
+  max-width: 1100px;
+  margin: 0 auto; }
+  .education-skills-section .education-skills-content .education {
+    display: grid;
+    grid-template-columns: 500px 400px;
+    grid-template-areas: 'university university-dates'; }
+    .education-skills-section .education-skills-content .education .university {
+      grid-area: university;
+      margin: 30px; }
+      .education-skills-section .education-skills-content .education .university .single-university {
+        margin-bottom: 25px; }
+      .education-skills-section .education-skills-content .education .university .university-name strong {
+        font-size: 18px; }
+    .education-skills-section .education-skills-content .education .university-dates {
+      grid-area: university-dates;
+      margin: 30px;
+      text-align: right; }
+  .education-skills-section .education-skills-content .skills {
+    margin: 3rem 0 0 0;
+    max-width: 400px;
+    display: grid;
+    grid-gap: 80px;
+    grid-template-columns: 500px 500px;
+    grid-template-areas: 'first-half second-half';
+    /* Animations Below - Replace ease-out with infinite for infinite loop*/
+    /* --------------- Responsive bar Starts Here --------------- */
+    /* --------------- Responsive bar Ends Here --------------- */
+    /* --------------- Windows bar Starts Here --------------- */
+    /* --------------- Windows bar Ends Here --------------- */
+    /* --------------- Mac bar Starts Here --------------- */
+    /* --------------- Mac bar Ends Here --------------- */
+    /* --------------- Linux bar Starts Here --------------- */
+    /* --------------- Linux bar Ends Here --------------- */
+    /* --------------- C++ bar Starts Here --------------- */
+    /* --------------- C++ bar Ends Here --------------- */
+    /* --------------- Python bar Starts Here --------------- */
+    /* --------------- Python bar Ends Here --------------- */
+    /* --------------- Pug bar Starts Here --------------- */
+    /* --------------- Pug bar Ends Here --------------- */
+    /* --------------- Javascript bar Starts Here --------------- */
+    /* --------------- Javascript bar Ends Here --------------- */
+    /* --------------- React bar Starts Here --------------- */
+    /* --------------- React bar Ends Here --------------- */
+    /* --------------- Node bar Starts Here --------------- */
+    /* --------------- Node bar Ends Here --------------- */
+    /* --------------- Express bar Starts Here --------------- */
+    /* --------------- Express bar Ends Here --------------- */
+    /* --------------- Gulp bar Starts Here --------------- */
+    /* --------------- Gulp bar Ends Here --------------- */
+    /* --------------- Postgresql bar Starts Here --------------- */
+    /* --------------- Postgresql bar Ends Here --------------- */
+    /* --------------- Mysql bar Starts Here --------------- */
+    /* --------------- Mysql bar Ends Here --------------- */
+    /* --------------- Git bar Starts Here --------------- */
+    /* --------------- Git bar Ends Here --------------- */
+    /* --------------- SEO bar Starts Here --------------- */
+    /* --------------- SEO bar Ends Here --------------- */
+    /* --------------- AWS bar Starts Here --------------- */
+    /* --------------- AWS bar Ends Here --------------- */
+    /* --------------- JQuery bar Starts Here --------------- */
+    /* --------------- JQuery bar Ends Here --------------- */
+    /* --------------- Auto CAD bar Starts Here --------------- */
+    /* --------------- Auto CAD bar Ends Here --------------- */
+    /* --------------- Photoshop bar Starts Here --------------- */
+    /* --------------- Photoshop bar Ends Here --------------- */ }
+    .education-skills-section .education-skills-content .skills .first-half,
+    .education-skills-section .education-skills-content .skills .second-half {
+      margin: 0 20px; }
+    .education-skills-section .education-skills-content .skills .bar-title {
+      position: relative;
+      font-size: 1em;
+      text-align: left;
+      margin: 0 0 5px 0; }
+    .education-skills-section .education-skills-content .skills .percent {
+      position: absolute;
+      right: 0; }
+    .education-skills-section .education-skills-content .skills .bar {
+      position: relative;
+      background-color: #d8d8d8;
+      height: 16px;
+      /* bar gap*/
+      margin: 0 0 28px 0;
+      border-radius: 10px; }
+    .education-skills-section .education-skills-content .skills .bar-fill {
+      position: absolute;
+      height: 16px;
+      border-radius: 10px; }
+    .education-skills-section .education-skills-content .skills .bar-fill-html5 {
+      width: 90%;
+      background-color: #e44d26;
+      animation: bar-fill-html5 2s ease-out;
+      -moz-animation: bar-fill-html5 2s ease-out;
+      -webkit-animation: bar-fill-html5 2s ease-out; }
+
+@keyframes bar-fill-html5 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 90%; } }
+
+@-moz-keyframes bar-fill-html5 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 90%; } }
+
+@-webkit-keyframes bar-fill-html5 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 90%; } }
+    .education-skills-section .education-skills-content .skills .bar-fill-bootstrap {
+      width: 90%;
+      background-color: #79c424;
+      animation: bar-fill-bootstrap 2s ease-out;
+      -moz-animation: bar-fill-bootstrap 2s ease-out;
+      -webkit-animation: bar-fill-bootstrap 2s ease-out; }
+
+@keyframes bar-fill-bootstrap {
+  0% {
+    width: 0px; }
+  100% {
+    width: 90%; } }
+
+@-moz-keyframes bar-fill-bootstrap {
+  0% {
+    width: 0px; }
+  100% {
+    width: 90%; } }
+
+@-webkit-keyframes bar-fill-bootstrap {
+  0% {
+    width: 0px; }
+  100% {
+    width: 90%; } }
+    .education-skills-section .education-skills-content .skills .bar-fill-wordpress {
+      width: 90%;
+      background-color: #d7e426;
+      animation: bar-fill-wordpress 2s ease-out;
+      -moz-animation: bar-fill-wordpress 2s ease-out;
+      -webkit-animation: bar-fill-wordpress 2s ease-out; }
+
+@keyframes bar-fill-wordpress {
+  0% {
+    width: 0px; }
+  100% {
+    width: 90%; } }
+
+@-moz-keyframes bar-fill-wordpress {
+  0% {
+    width: 0px; }
+  100% {
+    width: 90%; } }
+
+@-webkit-keyframes bar-fill-wordpress {
+  0% {
+    width: 0px; }
+  100% {
+    width: 90%; } }
+    .education-skills-section .education-skills-content .skills .bar-fill-sass {
+      width: 80%;
+      background-color: #26dee4;
+      animation: bar-fill-sass 2s ease-out;
+      -moz-animation: bar-fill-sass 2s ease-out;
+      -webkit-animation: bar-fill-sass 2s ease-out; }
+
+@keyframes bar-fill-sass {
+  0% {
+    width: 0px; }
+  100% {
+    width: 80%; } }
+
+@-moz-keyframes bar-fill-sass {
+  0% {
+    width: 0px; }
+  100% {
+    width: 80%; } }
+
+@-webkit-keyframes bar-fill-sass {
+  0% {
+    width: 0px; }
+  100% {
+    width: 80%; } }
+    .education-skills-section .education-skills-content .skills .bar-fill-responsive {
+      width: 80%;
+      background-color: #429f46;
+      animation: bar-fill-responsive 2s ease-out;
+      -moz-animation: bar-fill-responsive 2s ease-out;
+      -webkit-animation: bar-fill-responsive 2s ease-out; }
+
+@keyframes bar-fill-responsive {
+  0% {
+    width: 0px; }
+  100% {
+    width: 80%; } }
+
+@-moz-keyframes bar-fill-responsive {
+  0% {
+    width: 0px; }
+  100% {
+    width: 80%; } }
+
+@-webkit-keyframes bar-fill-responsive {
+  0% {
+    width: 0px; }
+  100% {
+    width: 80%; } }
+    .education-skills-section .education-skills-content .skills .bar-fill-windows {
+      width: 80%;
+      background-color: #5d69d1;
+      animation: bar-fill-windows 2s ease-out;
+      -moz-animation: bar-fill-windows 2s ease-out;
+      -webkit-animation: bar-fill-windows 2s ease-out; }
+
+@keyframes bar-fill-windows {
+  0% {
+    width: 0px; }
+  100% {
+    width: 80%; } }
+
+@-moz-keyframes bar-fill-windows {
+  0% {
+    width: 0px; }
+  100% {
+    width: 80%; } }
+
+@-webkit-keyframes bar-fill-windows {
+  0% {
+    width: 0px; }
+  100% {
+    width: 80%; } }
+    .education-skills-section .education-skills-content .skills .bar-fill-mac {
+      width: 80%;
+      background-color: #5639a7;
+      animation: bar-fill-mac 2s ease-out;
+      -moz-animation: bar-fill-mac 2s ease-out;
+      -webkit-animation: bar-fill-mac 2s ease-out; }
+
+@keyframes bar-fill-mac {
+  0% {
+    width: 0px; }
+  100% {
+    width: 80%; } }
+
+@-moz-keyframes bar-fill-mac {
+  0% {
+    width: 0px; }
+  100% {
+    width: 80%; } }
+
+@-webkit-keyframes bar-fill-mac {
+  0% {
+    width: 0px; }
+  100% {
+    width: 80%; } }
+    .education-skills-section .education-skills-content .skills .bar-fill-linux {
+      width: 70%;
+      background-color: #9c24a0;
+      animation: bar-fill-linux 2s ease-out;
+      -moz-animation: bar-fill-linux 2s ease-out;
+      -webkit-animation: bar-fill-linux 2s ease-out; }
+
+@keyframes bar-fill-linux {
+  0% {
+    width: 0px; }
+  100% {
+    width: 70%; } }
+
+@-moz-keyframes bar-fill-linux {
+  0% {
+    width: 0px; }
+  100% {
+    width: 70%; } }
+
+@-webkit-keyframes bar-fill-linux {
+  0% {
+    width: 0px; }
+  100% {
+    width: 70%; } }
+    .education-skills-section .education-skills-content .skills .bar-fill-cpp {
+      width: 70%;
+      background-color: #b42222;
+      animation: bar-fill-cpp 2s ease-out;
+      -moz-animation: bar-fill-cpp 2s ease-out;
+      -webkit-animation: bar-fill-cpp 2s ease-out; }
+
+@keyframes bar-fill-cpp {
+  0% {
+    width: 0px; }
+  100% {
+    width: 70%; } }
+
+@-moz-keyframes bar-fill-cpp {
+  0% {
+    width: 0px; }
+  100% {
+    width: 70%; } }
+
+@-webkit-keyframes bar-fill-cpp {
+  0% {
+    width: 0px; }
+  100% {
+    width: 70%; } }
+    .education-skills-section .education-skills-content .skills .bar-fill-python {
+      width: 70%;
+      background-color: #948c1c;
+      animation: bar-fill-python 2s ease-out;
+      -moz-animation: bar-fill-python 2s ease-out;
+      -webkit-animation: bar-fill-python 2s ease-out; }
+
+@keyframes bar-fill-python {
+  0% {
+    width: 0px; }
+  100% {
+    width: 70%; } }
+
+@-moz-keyframes bar-fill-python {
+  0% {
+    width: 0px; }
+  100% {
+    width: 70%; } }
+
+@-webkit-keyframes bar-fill-python {
+  0% {
+    width: 0px; }
+  100% {
+    width: 70%; } }
+    .education-skills-section .education-skills-content .skills .bar-fill-pug {
+      width: 70%;
+      background-color: #a34519;
+      animation: bar-fill-pug 2s ease-out;
+      -moz-animation: bar-fill-pug 2s ease-out;
+      -webkit-animation: bar-fill-pug 2s ease-out; }
+
+@keyframes bar-fill-pug {
+  0% {
+    width: 0px; }
+  100% {
+    width: 70%; } }
+
+@-moz-keyframes bar-fill-pug {
+  0% {
+    width: 0px; }
+  100% {
+    width: 70%; } }
+
+@-webkit-keyframes bar-fill-pug {
+  0% {
+    width: 0px; }
+  100% {
+    width: 70%; } }
+    .education-skills-section .education-skills-content .skills .bar-fill-javascript {
+      width: 60%;
+      background-color: #248a0a;
+      animation: bar-fill-javascript 2s ease-out;
+      -moz-animation: bar-fill-javascript 2s ease-out;
+      -webkit-animation: bar-fill-javascript 2s ease-out; }
+
+@keyframes bar-fill-javascript {
+  0% {
+    width: 0px; }
+  100% {
+    width: 60%; } }
+
+@-moz-keyframes bar-fill-javascript {
+  0% {
+    width: 0px; }
+  100% {
+    width: 60%; } }
+
+@-webkit-keyframes bar-fill-javascript {
+  0% {
+    width: 0px; }
+  100% {
+    width: 60%; } }
+    .education-skills-section .education-skills-content .skills .bar-fill-react {
+      width: 60%;
+      background-color: #31ad18;
+      animation: bar-fill-react 2s ease-out;
+      -moz-animation: bar-fill-react 2s ease-out;
+      -webkit-animation: bar-fill-react 2s ease-out; }
+
+@keyframes bar-fill-react {
+  0% {
+    width: 0px; }
+  100% {
+    width: 60%; } }
+
+@-moz-keyframes bar-fill-react {
+  0% {
+    width: 0px; }
+  100% {
+    width: 60%; } }
+
+@-webkit-keyframes bar-fill-react {
+  0% {
+    width: 0px; }
+  100% {
+    width: 60%; } }
+    .education-skills-section .education-skills-content .skills .bar-fill-node {
+      width: 60%;
+      background-color: #f83d66;
+      animation: bar-fill-node 2s ease-out;
+      -moz-animation: bar-fill-node 2s ease-out;
+      -webkit-animation: bar-fill-node 2s ease-out; }
+
+@keyframes bar-fill-node {
+  0% {
+    width: 0px; }
+  100% {
+    width: 60%; } }
+
+@-moz-keyframes bar-fill-node {
+  0% {
+    width: 0px; }
+  100% {
+    width: 60%; } }
+
+@-webkit-keyframes bar-fill-node {
+  0% {
+    width: 0px; }
+  100% {
+    width: 60%; } }
+    .education-skills-section .education-skills-content .skills .bar-fill-express {
+      width: 60%;
+      background-color: #3d7ff8;
+      animation: bar-fill-express 2s ease-out;
+      -moz-animation: bar-fill-express 2s ease-out;
+      -webkit-animation: bar-fill-express 2s ease-out; }
+
+@keyframes bar-fill-express {
+  0% {
+    width: 0px; }
+  100% {
+    width: 60%; } }
+
+@-moz-keyframes bar-fill-express {
+  0% {
+    width: 0px; }
+  100% {
+    width: 60%; } }
+
+@-webkit-keyframes bar-fill-express {
+  0% {
+    width: 0px; }
+  100% {
+    width: 60%; } }
+    .education-skills-section .education-skills-content .skills .bar-fill-gulp {
+      width: 60%;
+      background-color: #74bb6b;
+      animation: bar-fill-gulp 2s ease-out;
+      -moz-animation: bar-fill-gulp 2s ease-out;
+      -webkit-animation: bar-fill-gulp 2s ease-out; }
+
+@keyframes bar-fill-gulp {
+  0% {
+    width: 0px; }
+  100% {
+    width: 60%; } }
+
+@-moz-keyframes bar-fill-gulp {
+  0% {
+    width: 0px; }
+  100% {
+    width: 60%; } }
+
+@-webkit-keyframes bar-fill-gulp {
+  0% {
+    width: 0px; }
+  100% {
+    width: 60%; } }
+    .education-skills-section .education-skills-content .skills .bar-fill-postgresql {
+      width: 60%;
+      background-color: #8a73bd;
+      animation: bar-fill-postgresql 2s ease-out;
+      -moz-animation: bar-fill-postgresql 2s ease-out;
+      -webkit-animation: bar-fill-postgresql 2s ease-out; }
+
+@keyframes bar-fill-postgresql {
+  0% {
+    width: 0px; }
+  100% {
+    width: 60%; } }
+
+@-moz-keyframes bar-fill-postgresql {
+  0% {
+    width: 0px; }
+  100% {
+    width: 60%; } }
+
+@-webkit-keyframes bar-fill-postgresql {
+  0% {
+    width: 0px; }
+  100% {
+    width: 60%; } }
+    .education-skills-section .education-skills-content .skills .bar-fill-mysql {
+      width: 60%;
+      background-color: #6eb928;
+      animation: bar-fill-mysql 2s ease-out;
+      -moz-animation: bar-fill-mysql 2s ease-out;
+      -webkit-animation: bar-fill-mysql 2s ease-out; }
+
+@keyframes bar-fill-mysql {
+  0% {
+    width: 0px; }
+  100% {
+    width: 60%; } }
+
+@-moz-keyframes bar-fill-mysql {
+  0% {
+    width: 0px; }
+  100% {
+    width: 60%; } }
+
+@-webkit-keyframes bar-fill-mysql {
+  0% {
+    width: 0px; }
+  100% {
+    width: 60%; } }
+    .education-skills-section .education-skills-content .skills .bar-fill-git {
+      width: 60%;
+      background-color: #3dc3f8;
+      animation: bar-fill-git 2s ease-out;
+      -moz-animation: bar-fill-git 2s ease-out;
+      -webkit-animation: bar-fill-git 2s ease-out; }
+
+@keyframes bar-fill-git {
+  0% {
+    width: 0px; }
+  100% {
+    width: 60%; } }
+
+@-moz-keyframes bar-fill-git {
+  0% {
+    width: 0px; }
+  100% {
+    width: 60%; } }
+
+@-webkit-keyframes bar-fill-git {
+  0% {
+    width: 0px; }
+  100% {
+    width: 60%; } }
+    .education-skills-section .education-skills-content .skills .bar-fill-seo {
+      width: 60%;
+      background-color: #e93df8;
+      animation: bar-fill-seo 2s ease-out;
+      -moz-animation: bar-fill-seo 2s ease-out;
+      -webkit-animation: bar-fill-seo 2s ease-out; }
+
+@keyframes bar-fill-seo {
+  0% {
+    width: 0px; }
+  100% {
+    width: 60%; } }
+
+@-moz-keyframes bar-fill-seo {
+  0% {
+    width: 0px; }
+  100% {
+    width: 60%; } }
+
+@-webkit-keyframes bar-fill-seo {
+  0% {
+    width: 0px; }
+  100% {
+    width: 60%; } }
+    .education-skills-section .education-skills-content .skills .bar-fill-aws {
+      width: 60%;
+      background-color: #998513;
+      animation: bar-fill-aws 2s ease-out;
+      -moz-animation: bar-fill-aws 2s ease-out;
+      -webkit-animation: bar-fill-aws 2s ease-out; }
+
+@keyframes bar-fill-aws {
+  0% {
+    width: 0px; }
+  100% {
+    width: 60%; } }
+
+@-moz-keyframes bar-fill-aws {
+  0% {
+    width: 0px; }
+  100% {
+    width: 60%; } }
+
+@-webkit-keyframes bar-fill-aws {
+  0% {
+    width: 0px; }
+  100% {
+    width: 60%; } }
+    .education-skills-section .education-skills-content .skills .bar-fill-jquery {
+      width: 50%;
+      background-color: #a4b6d6;
+      animation: bar-fill-jquery 2s ease-out;
+      -moz-animation: bar-fill-jquery 2s ease-out;
+      -webkit-animation: bar-fill-jquery 2s ease-out; }
+
+@keyframes bar-fill-jquery {
+  0% {
+    width: 0px; }
+  100% {
+    width: 50%; } }
+
+@-moz-keyframes bar-fill-jquery {
+  0% {
+    width: 0px; }
+  100% {
+    width: 50%; } }
+
+@-webkit-keyframes bar-fill-jquery {
+  0% {
+    width: 0px; }
+  100% {
+    width: 50%; } }
+    .education-skills-section .education-skills-content .skills .bar-fill-autocad {
+      width: 40%;
+      background-color: #92d1ad;
+      animation: bar-fill-autocad 2s ease-out;
+      -moz-animation: bar-fill-autocad 2s ease-out;
+      -webkit-animation: bar-fill-autocad 2s ease-out; }
+
+@keyframes bar-fill-autocad {
+  0% {
+    width: 0px; }
+  100% {
+    width: 40%; } }
+
+@-moz-keyframes bar-fill-autocad {
+  0% {
+    width: 0px; }
+  100% {
+    width: 40%; } }
+
+@-webkit-keyframes bar-fill-autocad {
+  0% {
+    width: 0px; }
+  100% {
+    width: 40%; } }
+    .education-skills-section .education-skills-content .skills .bar-fill-photoshop {
+      width: 20%;
+      background-color: #0a73dc;
+      animation: bar-fill-photoshop 2s ease-out;
+      -moz-animation: bar-fill-photoshop 2s ease-out;
+      -webkit-animation: bar-fill-photoshop 2s ease-out; }
+
+@keyframes bar-fill-photoshop {
+  0% {
+    width: 0px; }
+  100% {
+    width: 20%; } }
+
+@-moz-keyframes bar-fill-photoshop {
+  0% {
+    width: 0px; }
+  100% {
+    width: 20%; } }
+
+@-webkit-keyframes bar-fill-photoshop {
+  0% {
+    width: 0px; }
+  100% {
+    width: 20%; } }
+
+.experience-section {
+  max-width: 1100px;
+  margin: 0 auto; }
+  .experience-section .experiences {
+    margin-bottom: 4rem; }
+  .experience-section .job {
+    margin: 1rem 3rem 3rem 3rem;
+    max-width: 80%;
+    background: #515151;
+    padding: 1.8rem;
+    border-bottom: #eece1a 5px solid; }
+    .experience-section .job .job-title {
+      padding: 0 0.5rem;
+      margin: 1rem 0;
+      display: inline-block; }
+    .experience-section .job .job-date {
+      display: inline-block;
+      float: right;
+      margin: 1rem; }
+    .experience-section .job ul.job-details {
+      display: block;
+      margin: 0.5rem 0; }
+    .experience-section .job ul.job-details li {
+      padding: 0 0 1rem 0; }
+
+.projects-section {
+  max-width: 1100px;
+  margin: 0 auto; }
+  .projects-section .projects {
+    padding: 1rem 1rem;
+    font-size: 14px;
+    display: grid;
+    grid-gap: 3rem;
+    grid-template-columns: repeat(3, 1fr); }
+    .projects-section .projects img {
+      width: 100%; }
+      .projects-section .projects img:hover {
+        opacity: 0.5;
+        border-color: #eece1a;
+        transition: all 0.5s ease-out; }
+    .projects-section .projects .item {
+      max-width: 365px; }
+  .projects-section .btn, .projects-section .btn-dark, .projects-section .btn-light {
+    display: block;
+    padding: 0.5rem 1rem;
+    border: 0;
+    margin-bottom: 0.3rem; }
+    .projects-section .btn:hover, .projects-section .btn-dark:hover, .projects-section .btn-light:hover {
+      background: #eece1a;
+      color: #000; }
+  .projects-section .btn-dark {
+    background: black;
+    color: #fff; }
+  .projects-section .btn-light {
+    background: #c4c4c4;
+    color: #333; }
+
+.contact-section {
+  max-width: 1100px;
+  margin: 0 auto; }
+  .contact-section .contact-info {
+    padding: 0 1rem 1rem 1rem; }
+    .contact-section .contact-info ul li {
+      padding: 0.5rem 0; }
+      .contact-section .contact-info ul li span.fa-icon {
+        padding: 0 1rem 0 0; }
+
+html {
+  font-size: 17px;
+  height: 100%; }
+
+* {
+  box-sizing: border-box; }
+
+.text-secondary {
+  color: #eece1a; }
+
+a {
+  color: #fff;
+  text-decoration: none; }
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 400; }
+  h1.lg-heading,
+  h2.lg-heading,
+  h3.lg-heading {
+    font-size: 2rem;
+    padding: 1rem; }
+  h1.sm-heading,
+  h2.sm-heading,
+  h3.sm-heading {
+    font-size: 1.3rem;
+    padding: 1.2rem 1rem;
+    background: rgba(81, 81, 81, 0.5); }
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  min-height: calc(100vh - 46px);
+  overflow-x: hidden;
+  color: #fff;
+  background: url(../img/background.jpg);
+  background-attachment: fixed;
+  background-size: cover; }
+  body::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: rgba(68, 68, 68, 0.9); }
+
+header {
+  width: 100%;
+  top: 0;
+  height: 70px;
+  position: fixed;
+  z-index: 2;
+  background: rgba(81, 81, 81, 0.5); }
+  header #menu-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1rem; }
+    header #menu-content .portfolio {
+      padding: 1rem 0;
+      display: inline-block;
+      font-size: 36px; }
+    header #menu-content .menu-btn {
+      display: none;
+      position: absolute;
+      z-index: 3;
+      right: 35px;
+      top: 26px;
+      cursor: pointer;
+      transition: all 0.5s ease-out; }
+      header #menu-content .menu-btn .btn-line {
+        width: 28px;
+        height: 3px;
+        margin: 0 0 5px 0;
+        background: #fff;
+        transition: all 0.5s ease-out; }
+      header #menu-content .menu-btn.close {
+        transform: rotate(180deg); }
+        header #menu-content .menu-btn.close .btn-line:nth-child(1) {
+          transform: rotate(45deg) translate(5px, 5px); }
+        header #menu-content .menu-btn.close .btn-line:nth-child(2) {
+          opacity: 0; }
+        header #menu-content .menu-btn.close .btn-line:nth-child(3) {
+          transform: rotate(-45deg) translate(7px, -6px); }
+    header #menu-content .menu {
+      display: inline-block;
+      padding: 1.4rem 0 1rem 1rem;
+      float: right; }
+      header #menu-content .menu .nav-link {
+        font-size: 17px;
+        text-transform: uppercase;
+        padding: 1rem;
+        font-weight: 300;
+        color: #fff;
+        transition: all 0.5s ease-out; }
+        header #menu-content .menu .nav-link:hover {
+          color: #eece1a; }
+
+main {
+  width: 100%; }
+
+footer#main-footer {
+  width: 100%;
+  font-size: 14px;
+  text-align: center;
+  padding: 15px 0;
+  background: #2b2b2b;
+  color: #fff;
+  height: 46px; }
+
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+  header {
+    background: rgba(81, 81, 81, 0.9); }
+    header #menu-content {
+      z-index: 3; }
+      header #menu-content .menu {
+        display: none; }
+      header #menu-content .menu-btn {
+        display: inline-block; }
+      header #menu-content .menu.show {
+        display: block;
+        float: none;
+        background: rgba(81, 81, 81, 0.9); }
+        header #menu-content .menu.show .nav-link.show {
+          display: block;
+          text-align: left; }
+          header #menu-content .menu.show .nav-link.show:hover {
+            background-color: #b6b6b6; }
+  .about-section {
+    grid-template-areas: 'bioimage' 'bioinfo';
+    grid-template-columns: 1fr; }
+    .about-section .about-info {
+      padding: 1rem 3rem; }
+  .education-skills-section {
+    padding: 1rem 3rem; }
+    .education-skills-section .education-skills-content .education {
+      grid-template-areas: 'university university-dates';
+      grid-template-columns: 400px 300px; }
+    .education-skills-section .education-skills-content .skills {
+      grid-template-areas: 'first-half' 'second-half';
+      grid-template-columns: 600px;
+      grid-gap: 0;
+      margin: 3rem 2rem; }
+  .experience-section {
+    padding: 1rem 3rem; }
+  .projects-section {
+    padding: 1rem 3rem; }
+    .projects-section .projects {
+      grid-template-columns: repeat(2, 1fr); }
+  .contact-section {
+    padding: 1rem 3rem; } }
+
+@media screen and (min-width: 501px) and (max-width: 768px) {
+  header {
+    background: rgba(81, 81, 81, 0.9); }
+    header #menu-content {
+      z-index: 3; }
+      header #menu-content .menu {
+        display: none; }
+      header #menu-content .menu-btn {
+        display: inline-block; }
+      header #menu-content .menu.show {
+        display: block;
+        float: none;
+        background: rgba(81, 81, 81, 0.9); }
+        header #menu-content .menu.show .nav-link.show {
+          display: block;
+          text-align: left; }
+          header #menu-content .menu.show .nav-link.show:hover {
+            background-color: #b6b6b6; }
+  .about-section {
+    grid-template-areas: 'bioimage' 'bioinfo';
+    grid-template-columns: 1fr; }
+    .about-section .about-info {
+      padding: 1rem 3rem; }
+  .education-skills-section {
+    padding: 1rem 3rem; }
+    .education-skills-section .education-skills-content .education {
+      grid-template-areas: 'university' 'university-dates';
+      grid-template-columns: 1fr; }
+      .education-skills-section .education-skills-content .education .university {
+        margin-top: 1rem;
+        margin-bottom: 0; }
+      .education-skills-section .education-skills-content .education .university-dates {
+        margin-top: 1rem;
+        text-align: left; }
+    .education-skills-section .education-skills-content .skills {
+      grid-template-areas: 'first-half' 'second-half';
+      grid-template-columns: 400px;
+      grid-gap: 0;
+      margin: 2rem 1rem; }
+  .experience-section {
+    padding: 1rem 3rem; }
+    .experience-section .job {
+      margin: 1rem 0 2rem 1rem; }
+      .experience-section .job .job-title {
+        display: block; }
+      .experience-section .job .job-date {
+        display: block;
+        float: none; }
+  .projects-section {
+    padding: 1rem 3rem; }
+    .projects-section .projects {
+      grid-template-columns: 1fr; }
+  .contact-section {
+    padding: 1rem 3rem; } }
+
+@media screen and (max-width: 500px) {
+  header {
+    background: rgba(81, 81, 81, 0.9); }
+    header #menu-content {
+      z-index: 3; }
+      header #menu-content .menu {
+        display: none; }
+      header #menu-content .menu-btn {
+        display: inline-block; }
+      header #menu-content .menu.show {
+        display: block;
+        float: none;
+        background: rgba(81, 81, 81, 0.9); }
+        header #menu-content .menu.show .nav-link.show {
+          display: block;
+          text-align: left; }
+          header #menu-content .menu.show .nav-link.show:hover {
+            background-color: #b6b6b6; }
+  .about-section {
+    grid-template-areas: 'bioimage' 'bioinfo';
+    grid-template-columns: 1fr; }
+    .about-section .about-info {
+      padding: 1rem 1rem; }
+  .education-skills-section {
+    padding: 1rem; }
+    .education-skills-section .education-skills-content .education {
+      grid-template-areas: 'university' 'university-dates';
+      grid-template-columns: 1fr; }
+      .education-skills-section .education-skills-content .education .university {
+        margin-top: 1rem;
+        margin-bottom: 0; }
+      .education-skills-section .education-skills-content .education .university-dates {
+        margin-top: 1rem;
+        text-align: left; }
+    .education-skills-section .education-skills-content .skills {
+      grid-template-areas: 'first-half' 'second-half';
+      grid-template-columns: 300px;
+      grid-gap: 0;
+      margin: 2rem 1rem; }
+  .experience-section {
+    padding: 1rem; }
+    .experience-section .job {
+      margin: 1rem 0 2rem 1rem; }
+      .experience-section .job .job-title {
+        display: block; }
+      .experience-section .job .job-date {
+        display: block;
+        float: none;
+        margin: 1rem 0;
+        padding: 0 0.5rem; }
+      .experience-section .job ul {
+        padding-inline-start: 1.5rem; }
+      .experience-section .job ul.job-details li {
+        padding: 0.5rem 0.5rem 0.5rem 0; }
+  .projects-section {
+    padding: 1rem; }
+    .projects-section .projects {
+      grid-template-columns: 1fr; }
+  .contact-section {
+    padding: 1rem; } }
