@@ -16,8 +16,8 @@ const Sidebar = () => {
   const [isCollapsed, setIsCollapsed] = useState(false);
 
   return (
-    <div className={`bg-[#1f2b3e] min-h-screen ${!isCollapsed ? "w-72" : "w-16"} duration-500 py-4 rounded-none`}>
-      <div className={`mb-2 flex items-center justify-between gap-4 p-4`}>
+    <div className={`${!isCollapsed ? "w-72" : "w-16"} bg-[#1f2b3e] min-h-screen  duration-500 px-4`}>
+      <div className={`${!isCollapsed ? "justify-between" : "justify-center"} mb-2 flex  gap-4 py-4`}>
         {
           !isCollapsed && (
             <Typography variant="h5" color="white">
@@ -53,18 +53,19 @@ const Sidebar = () => {
       }
 
       {/* Sidebar List Section */}
-      <div className={`mt-4 ${!isCollapsed ? "pl-16" : "pl-2"} flex flex-col gap-4 text-white relative`}>
-        <Link to="/" className="group flex items-center p-2 hover:bg-gray-800 rounded-md">
+      <div className={`${!isCollapsed ? "pl-16" : "pl-2"} mt-4  flex flex-col gap-4 relative`}>
+        <Link to="/" className="group flex text-sm gap-3.5 font-medium p-2 text-white hover:bg-gray-800 rounded-md">
           <div>
-            <ImHome className="w-5 h-5" />
+            <ImHome className="w-4 h-4" />
           </div>
-          <h2 className={`whitespace-pre ${isCollapsed && "opacity-0 overflow-hidden"}`}>
+          <h2 className={`${isCollapsed && "opacity-0 overflow-hidden"} whitespace-pre`}>
             Home
           </h2>
         </Link>
+        
         {
           !isCollapsed && (
-            <Typography>
+            <Typography className="text-sm font-medium text-gray-400">
               Projects
             </Typography>
           )
@@ -74,12 +75,14 @@ const Sidebar = () => {
           <Link 
             to={listItem?.link}
             key={i}
-            className={`${listItem?.margin && "mt-4"} group flex items-center p-2 hover:bg-gray-800 rounded-md`}
+            className={`${listItem?.margin && "mt-3"} group flex text-sm gap-3.5 font-medium p-2 text-white hover:bg-gray-800 rounded-md`}
           >
             <div>
-              {createElement(listItem?.icon, { className: "w-5 h-5"})}
+              {createElement(listItem?.icon, { className: "w-4 h-4"})}
             </div>
-            <h2 className={`whitespace-pre ${isCollapsed && "opacity-0 overflow-hidden"}`}>
+            <h2
+              className={`${isCollapsed && "opacity-0 overflow-hidden"} whitespace-pre duration-500`}
+            >
               {listItem?.name}
             </h2>
           </Link>
