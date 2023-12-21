@@ -1,12 +1,24 @@
 import React, { createElement} from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Typography } from "@material-tailwind/react";
-import { Avatar } from "@material-tailwind/react";
 import { ImHome, ImFolderOpen } from "react-icons/im";
 import { MdMenu } from "react-icons/md";
 
 const Sidebar = () => {
+  const Avatar = ({src, alt, size="md"}) => {
+    const imageSize = {
+      sm: "h-12 w-12",
+      md: "h-24 w-24",
+      lg: "h-48 w-48",
+    }
+
+    return (
+      <div>
+        <img className={`${imageSize[size]} block object-fill rounded-full`} src={src} alt={alt} />
+      </div>
+    )
+  }
+
   const sidebarList = [
     { name: "Project-1", link: "/", icon: ImFolderOpen, margin: true },
     { name: "Project-2", link: "/", icon: ImFolderOpen },
@@ -18,13 +30,11 @@ const Sidebar = () => {
   return (
     <div className={`${!isCollapsed ? "w-72" : "w-16"} bg-[#1f2b3e] min-h-screen  duration-500 px-4`}>
       <div className={`${!isCollapsed ? "justify-between" : "justify-center"} mb-2 flex  gap-4 py-4`}>
-        <Typography
-          className={`${isCollapsed && "hidden"}`}
-          variant="h5" 
-          color="white"
+        <h2
+          className={`${isCollapsed && "hidden"} text-white`}
         >
           Portfolio
-        </Typography>
+        </h2>
         <MdMenu
           className="h-6 w-6 cursor-pointer text-white" 
           onClick={() => setIsCollapsed(!isCollapsed)}
@@ -35,17 +45,17 @@ const Sidebar = () => {
         <Avatar 
           src="/src/assets/Ninja.png" 
           alt="Avatar" 
-          size="xxl" 
+          size="md"
         />
-        <Typography variant="h4" color="white">
+        <h2 className="text-white text-2xl">
           Novus Li
-        </Typography>
-        <Typography variant="h6" color="white">
+        </h2>
+        <h2 className="text-cyan-700 text-sm pt-4 pb-1">
           Web Developer
-        </Typography>
-        <Typography variant="h6" color="white">
+        </h2>
+        <h2 className="text-cyan-700 text-sm pb-3 pt-1">
           Python Developer
-        </Typography>
+        </h2>
       </div>
       {/* Sidebar List Section */}
       <div className={`${!isCollapsed && "pl-16"} mt-4  flex flex-col gap-4 relative`}>
