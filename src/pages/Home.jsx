@@ -1,10 +1,10 @@
 import React from "react";
-import { Navbar, Projects, About, Experience, BallCanvas, ComputerCanvas, EarthCanvas, StarsCanvas } from "../components";
+import { Navbar, NavSec, Projects, About, Experience, BallCanvas, ComputerCanvas, EarthCanvas, StarsCanvas } from "../components";
 
 const Home = () => {
   return(
-    <div className="w-full bg-gray-400">
-      <Navbar />
+    <div className="w-full">
+      <NavSec />
       <Projects />
       <About />
       <ComputerCanvas />

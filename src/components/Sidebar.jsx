@@ -4,9 +4,11 @@ import { Link } from "react-router-dom";
 import { sidebarList } from "../constants";
 import { imageSize } from "../styles";
 import { ImHome } from "react-icons/im";
-import { MdMenu } from "react-icons/md";
+import { MdMenu, MdOutlineDarkMode, MdLightMode } from "react-icons/md";
 
 const Sidebar = () => {
+  const [isCollapsed, setIsCollapsed] = useState(false);
+
   const Avatar = ({src, alt, size="md"}) => {
     return (
       <div>
@@ -14,11 +16,9 @@ const Sidebar = () => {
       </div>
     )
   }
-  // isCollapsed mean the sidebar is closed
-  const [isCollapsed, setIsCollapsed] = useState(false);
-
+  
   return (
-    <div className={`${!isCollapsed ? "w-72" : "w-16"} bg-[#1f2b3e] min-h-screen  duration-500 px-4`}>
+    <nav className={`${!isCollapsed ? "w-72" : "w-16"} bg-primary min-h-screen  duration-500 px-4`}>
       <div className={`${!isCollapsed ? "justify-between" : "justify-center"} mb-2 flex  gap-4 py-4`}>
         <h2
           className={`${isCollapsed && "hidden"} text-white`}
@@ -47,9 +47,14 @@ const Sidebar = () => {
           Python Developer
         </h2>
       </div>
+      <div className="w-full flex justify-center">
+        <div className="rounded-full w-8 h-8 flex justify-center items-center cursor-pointer hover:bg-gray-600">
+          <MdOutlineDarkMode className="w-5 h-5 text-white" /> 
+        </div>
+      </div>
       {/* Sidebar List Section */}
       <div className={`${!isCollapsed && "pl-16"} mt-4  flex flex-col gap-4 relative`}>
-        <Link to="/" className="group flex text-sm gap-3.5 font-medium p-2 text-white hover:bg-gray-800 rounded-md">
+        <Link to="/" className="group flex text-sm gap-3.5 font-medium p-2 text-white hover:bg-gray-600 rounded-md">
           <div>
             <ImHome className="w-4 h-4" />
           </div>
@@ -69,7 +74,7 @@ const Sidebar = () => {
           <Link 
             to={listItem?.link}
             key={i}
-            className={`${listItem?.margin && "mt-3"} group flex text-sm gap-3.5 font-medium p-2 text-white hover:bg-gray-800 rounded-md`}
+            className={`${listItem?.margin && "mt-3"} group flex text-sm gap-3.5 font-medium p-2 text-white hover:bg-gray-600 rounded-md`}
           >
             <div>
               {createElement(listItem?.icon, { className: "w-4 h-4"})}
@@ -87,7 +92,7 @@ const Sidebar = () => {
           </Link>
         ))}
       </div>
-    </div>
+    </nav>
   );
 }
 

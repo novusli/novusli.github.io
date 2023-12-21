@@ -1,16 +1,15 @@
 import React from "react";
-import { HiLanguage } from "react-icons/hi2";
 import { MdDarkMode } from "react-icons/md";
 
 const Navbar = () => {
   return(
-    <div className="flex justify-end">
-      <div className="p-2">
-        <HiLanguage className="h-6 w-6 text-white" />
+    <div className={`fixed w-screen flex items-center top-0 py-3 px-6 z-20 bg-secondary`}>
+      <div className="w-screen flex justify-end max-w-7xl items-center">
+        <div className="px-2">
+          <MdDarkMode className="text-white cursor-pointer hover:text-gray-500" />
+        </div>
       </div>
-      <div className="p-2">
-        <MdDarkMode className="h-6 w-6 text-white" />
-      </div>
+      
       
     </div>
   )
