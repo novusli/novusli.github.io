@@ -11,24 +11,32 @@ Need to install the libraries below:
 ##### React Router
 - `npm install react-router-dom`
 
+##### Material-Tailwind
+- `npm install @material-tailwind/react`
+
+##### React Icons
+- `npm install -D react-icons`
+
 ##### React Tilt
 - `npm install react-tilt`
 
 ##### React Vertical Timeline Component
 - `npm install react-vertical-timeline-component`
 
-##### Material-Tailwind
-- `npm install @material-tailwind/react`
-For component
+##### React ThreeJS
+- `npm install @react-three/fiber @react-three/drei`
 
-##### React Icons
-- `npm install -D react-icons`
+##### ThreeJS Geometry Utility Function
+- `npm install maath`
+
+##### Framer Motion
+- `npm install framer-motion`
 
 ##### Tailwind CSS Prettier Plugin
 - `npm install -D prettier-plugin-tailwindcss`
 
 ##### Fonts
-**Google Fonts** - Source Sans Pro (Regular 400, SemiBold 600, Bold 700)
+**Google Fonts** - `Source Sans Pro` (Regular 400, SemiBold 600, Bold 700)
 Roboto font
 - `@fontsouce/roboto`  
 

@@ -1,10 +1,10 @@
 import React from "react";
-import Header from "../components/Header";
+import { Navbar } from "../components";
 
 const Home = () => {
   return(
     <div className="w-full bg-black">
-      <Header />
+      <Navbar />
     </div>
     
   );
