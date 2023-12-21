@@ -1,29 +1,19 @@
 import React, { createElement} from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { ImHome, ImFolderOpen } from "react-icons/im";
+import { sidebarList } from "../constants";
+import { imageSize } from "../styles";
+import { ImHome } from "react-icons/im";
 import { MdMenu } from "react-icons/md";
 
 const Sidebar = () => {
   const Avatar = ({src, alt, size="md"}) => {
-    const imageSize = {
-      sm: "h-12 w-12",
-      md: "h-24 w-24",
-      lg: "h-48 w-48",
-    }
-
     return (
       <div>
         <img className={`${imageSize[size]} block object-fill rounded-full`} src={src} alt={alt} />
       </div>
     )
   }
-
-  const sidebarList = [
-    { name: "Project-1", link: "/", icon: ImFolderOpen, margin: true },
-    { name: "Project-2", link: "/", icon: ImFolderOpen },
-    { name: "Project-3", link: "/", icon: ImFolderOpen }
-  ];
   // isCollapsed mean the sidebar is closed
   const [isCollapsed, setIsCollapsed] = useState(false);
 

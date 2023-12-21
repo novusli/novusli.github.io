@@ -11,9 +11,6 @@ Need to install the libraries below:
 ##### React Router
 - `npm install react-router-dom`
 
-##### Material-Tailwind
-- `npm install @material-tailwind/react`
-
 ##### React Icons
 - `npm install -D react-icons`
 
