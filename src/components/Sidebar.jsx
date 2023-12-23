@@ -7,6 +7,7 @@ import { ImHome } from "react-icons/im";
 import { MdMenu, MdOutlineDarkMode, MdLightMode } from "react-icons/md";
 
 const Sidebar = () => {
+    // isCollapsed mean the sidebar is closed
   const [isCollapsed, setIsCollapsed] = useState(false);
 
   const Avatar = ({src, alt, size="md"}) => {
