@@ -1,11 +1,5 @@
 import { ImFolderOpen } from "react-icons/im";
 import {
-  html,
-  css, 
-  javascript,
-  reactjs,
-  tailwind,
-  git,
   carrent,
   tripguide,
   jobit,
@@ -83,33 +77,6 @@ const projects = [
   },
 ]
 
-const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-];
-
 const experiences = [
   {
     title: "Web Developer",
@@ -165,4 +132,4 @@ const experiences = [
   },
 ];
 
-export { projects, technologies, experiences }
+export { projects, experiences }

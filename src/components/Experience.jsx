@@ -52,8 +52,7 @@ const ExperienceCard = ({ experience }) => {
 
 const Experience = () => {
   return(
-    <div>
-      Experience Section
+    <section>
       <div>
         <p className="text-center text-[14px] text-tertiary uppercase tracking-wider">
           What I have done so far
@@ -73,7 +72,7 @@ const Experience = () => {
           ))}
         </VerticalTimeline>
       </div>
-    </div>
+    </section>
   )
 }
 
