@@ -19,7 +19,7 @@ const Sidebar = () => {
   }
   
   return (
-    <nav className={`${!isCollapsed ? "w-72" : "w-16"} bg-primary min-h-screen  duration-500 px-4`}>
+    <nav className={`${!isCollapsed ? "w-72" : "w-16"} bg-secondary min-h-screen  duration-500 px-4`}>
       <div className={`${!isCollapsed ? "justify-between" : "justify-center"} mb-2 flex  gap-4 py-4`}>
         <h2
           className={`${isCollapsed && "hidden"} text-white`}
@@ -41,10 +41,10 @@ const Sidebar = () => {
         <h2 className="text-white text-2xl">
           Novus Li
         </h2>
-        <h2 className="text-cyan-700 text-sm pt-4 pb-1">
+        <h2 className="text-tertiary text-sm pt-4 pb-1">
           Web Developer
         </h2>
-        <h2 className="text-cyan-700 text-sm pb-3 pt-1">
+        <h2 className="text-tertiary text-sm pb-3 pt-1">
           Python Developer
         </h2>
       </div>

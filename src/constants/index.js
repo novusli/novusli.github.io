@@ -9,6 +9,8 @@ import {
   carrent,
   tripguide,
   jobit,
+  starbucks,
+  shopify,
   meta,
   tesla,
 } from "../assets";
@@ -108,11 +110,11 @@ const technologies = [
   },
 ];
 
-const experience = [
+const experiences = [
   {
     title: "Web Developer",
     companyName: "AE&E",
-    icon: "None",
+    icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
@@ -125,7 +127,7 @@ const experience = [
   {
     title: "Python Developer",
     companyName: "Uber",
-    icon: "None",
+    icon: shopify,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
@@ -163,4 +165,4 @@ const experience = [
   },
 ];
 
-export { projects, technologies, experience }
+export { projects, technologies, experiences }
