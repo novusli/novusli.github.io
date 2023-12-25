@@ -1,8 +1,7 @@
 import React from "react";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
-
 import "react-vertical-timeline-component/style.min.css";
-
+import { styles } from "../styles";
 import { experiences } from "../constants";
 
 
@@ -52,17 +51,17 @@ const ExperienceCard = ({ experience }) => {
 
 const Experience = () => {
   return(
-    <section>
+    <section className="my-8">
       <div>
-        <p className="text-center text-[14px] text-tertiary uppercase tracking-wider">
+        <p className={`${styles.sectionSubText} text-center`}>
           What I have done so far
         </p>
-        <h2 className="text-center text-white font-black text-[30px]">
+        <h2 className={`${styles.sectionHeadText} text-center`}>
           Work Experience
         </h2>
       </div>
 
-      <div className="mt-20 flex flex-col">
+      <div className="mt-14 flex flex-col">
         <VerticalTimeline>
           {experiences.map((experience, index) => (
             <ExperienceCard 
