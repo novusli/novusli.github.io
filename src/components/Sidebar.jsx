@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { sidebarList } from "../constants";
 import { imageSize } from "../styles";
+import { avatar } from "../assets";
 import { ImHome } from "react-icons/im";
 import { MdMenu, MdOutlineDarkMode, MdLightMode } from "react-icons/md";
 
@@ -34,7 +35,7 @@ const Sidebar = () => {
       {/* Info Section */}
       <div className={`${isCollapsed && "hidden"} flex flex-col m-2 w-full items-center`}>
         <Avatar 
-          src="/src/assets/Ninja.png" 
+          src={`${avatar}`}
           alt="Avatar" 
           size="md"
         />

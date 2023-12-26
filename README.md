@@ -56,19 +56,6 @@ Roboto font
 }
 ```
 
-
 ##### VS Code Extensions
 - Tailwind Shades - Tailwind CSS color palette generator.
 - Tailwind CSS IntelliSense
-
-
-#### Uninstalled
-
-##### React ThreeJS
-- `npm install @react-three/fiber @react-three/drei`
-
-##### ThreeJS Geometry Utility Function
-- `npm install maath`
-
-##### Framer Motion
-- `npm install framer-motion`
