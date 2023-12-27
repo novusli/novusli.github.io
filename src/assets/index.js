@@ -20,6 +20,10 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import cpp from "./tech/cpp.png";
+import django from "./tech/django.png";
+import postgresql from "./tech/postgresql.png";
 
 import avatar from "./avatar.png";
 
@@ -55,6 +59,10 @@ export {
   tailwind,
   typescript,
   threejs,
+  python,
+  cpp,
+  django,
+  postgresql,
   meta,
   shopify,
   starbucks,

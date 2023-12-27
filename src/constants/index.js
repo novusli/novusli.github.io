@@ -14,6 +14,10 @@ import {
   nodejs,
   reactjs,
   tailwind,
+  python,
+  cpp,
+  django,
+  postgresql
 } from "../assets";
 
 export const sidebarList = [
@@ -104,12 +108,12 @@ const skills = [
   {
     name: "Python",
     description: "4 years of web development",
-    icon: meta,
+    icon: python,
   },
   {
     name: "C++",
     description: "2 years of web development",
-    icon: meta,
+    icon: cpp,
   },
   {
     name: "React.js",
@@ -124,12 +128,12 @@ const skills = [
   {
     name: "Django",
     description: "2 years of web development",
-    icon: meta,
+    icon: django,
   },
   {
     name: "PostgreSQL",
     description: "2 years of web development",
-    icon: meta,
+    icon: postgresql,
   },
   {
     name: "Git",
