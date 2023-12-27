@@ -3,11 +3,13 @@ import { Projects, Header, About, Experience } from "../components";
 
 const Home = () => {
   return(
-    <div className="w-full bg-[#151b2c] px-16">
+    <div className="bg-img bg-auto">
+      <div className="px-16">
       <Header />
       <Projects />
       <About />
-      <Experience />   
+      <Experience />
+      </div>
     </div>
 
   );

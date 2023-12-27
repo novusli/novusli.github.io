@@ -15,7 +15,10 @@ module.exports = {
         primary: "#151b2c",
         secondary: "#1f2b3e",
         tertiary: "#4cceac",
-      }
+      },
+      backgroundImage: {
+        "img": "url('/src/assets/background/bg-black.png')",
+      },
     },
   },
   plugins: [],

@@ -1,10 +1,4 @@
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
 import github from "./github.png";
-import menu from "./menu.svg";
-import close from "./close.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -24,26 +18,20 @@ import cpp from "./tech/cpp.png";
 import django from "./tech/django.png";
 import postgresql from "./tech/postgresql.png";
 
-import avatar from "./avatar.png";
+import avatar from "./avatar/avatar.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./projects/carrent.png";
-import jobit from "./projects/jobit.png";
-import tripguide from "./projects/tripguide.png";
+import carrent from "./project/carrent.png";
+import jobit from "./project/jobit.png";
+import tripguide from "./project/tripguide.png";
 
 export {
   avatar,
-  backend,
-  creator,
-  mobile,
-  web,
   github,
-  menu,
-  close,
   css,
   docker,
   figma,
