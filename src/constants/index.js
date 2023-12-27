@@ -76,7 +76,60 @@ const projects = [
       },
     ],
   },
-]
+];
+
+const skills = [
+  {
+    name: "HTML 5",
+    description: "4 years of web development",
+    icon: meta,
+  },
+  {
+    name: "CSS 3",
+    description: "3 years of web development",
+    icon: meta,
+  },
+  {
+    name: "Javascript",
+    description: "5 years of web development",
+    icon: meta,
+  },
+  {
+    name: "Python",
+    description: "4 years of web development",
+    icon: meta,
+  },
+  {
+    name: "C++",
+    description: "2 years of web development",
+    icon: meta,
+  },
+  {
+    name: "React.js",
+    description: "2 years of web development",
+    icon: meta,
+  },
+  {
+    name: "Node.js",
+    description: "2 years of web development",
+    icon: meta,
+  },
+  {
+    name: "Django",
+    description: "2 years of web development",
+    icon: meta,
+  },
+  {
+    name: "PostgreSQL",
+    description: "2 years of web development",
+    icon: meta,
+  },
+  {
+    name: "Git",
+    description: "2 years of web development",
+    icon: meta,
+  },
+];
 
 const experiences = [
   {
@@ -133,4 +186,4 @@ const experiences = [
   },
 ];
 
-export { projects, experiences }
+export { projects, skills, experiences }
