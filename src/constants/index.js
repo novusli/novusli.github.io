@@ -15,7 +15,6 @@ import {
   reactjs,
   tailwind,
   python,
-  cpp,
   django,
   postgresql
 } from "../assets";
@@ -109,11 +108,6 @@ const skills = [
     name: "Python",
     description: "4 years of web development",
     icon: python,
-  },
-  {
-    name: "C++",
-    description: "2 years of web development",
-    icon: cpp,
   },
   {
     name: "React.js",
