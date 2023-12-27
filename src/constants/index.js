@@ -7,6 +7,13 @@ import {
   shopify,
   meta,
   tesla,
+  html,
+  css,
+  git,
+  javascript,
+  nodejs,
+  reactjs,
+  tailwind,
 } from "../assets";
 
 export const sidebarList = [
@@ -82,17 +89,17 @@ const skills = [
   {
     name: "HTML 5",
     description: "4 years of web development",
-    icon: meta,
+    icon: html,
   },
   {
     name: "CSS 3",
     description: "3 years of web development",
-    icon: meta,
+    icon: css,
   },
   {
     name: "Javascript",
     description: "5 years of web development",
-    icon: meta,
+    icon: javascript,
   },
   {
     name: "Python",
@@ -107,12 +114,12 @@ const skills = [
   {
     name: "React.js",
     description: "2 years of web development",
-    icon: meta,
+    icon: reactjs,
   },
   {
     name: "Node.js",
     description: "2 years of web development",
-    icon: meta,
+    icon: nodejs,
   },
   {
     name: "Django",
@@ -127,7 +134,12 @@ const skills = [
   {
     name: "Git",
     description: "2 years of web development",
-    icon: meta,
+    icon: git,
+  },
+  {
+    name: "Tailwind",
+    description: "2 years of web development",
+    icon: tailwind,
   },
 ];
 
