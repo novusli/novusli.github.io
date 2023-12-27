@@ -21,9 +21,9 @@ import {
 } from "../assets";
 
 export const sidebarList = [
-  { name: "Project-1", link: "/", icon: ImFolderOpen, margin: true },
-  { name: "Project-2", link: "/", icon: ImFolderOpen },
-  { name: "Project-3", link: "/", icon: ImFolderOpen }
+  { name: "Project-1", link: "/project1", icon: ImFolderOpen, margin: true },
+  { name: "Project-2", link: "/project2", icon: ImFolderOpen },
+  { name: "Project-3", link: "/project3", icon: ImFolderOpen }
 ];
 
 const projects = [

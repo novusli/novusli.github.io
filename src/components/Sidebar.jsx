@@ -49,6 +49,7 @@ const Sidebar = () => {
           Python Developer
         </h2>
       </div>
+      {/* Light/dark mode button */}
       <div className="w-full flex justify-center">
         <div className="rounded-full w-8 h-8 flex justify-center items-center cursor-pointer hover:bg-gray-600">
           <MdOutlineDarkMode className="w-5 h-5 text-white" /> 
@@ -72,6 +73,7 @@ const Sidebar = () => {
         <h2 className={`${isCollapsed && "hidden"} text-sm font-medium text-gray-400`}>
           Projects
         </h2>
+        {/* Projects Link List */}
         {sidebarList?.map((listItem, i) => (
           <Link 
             to={listItem?.link}

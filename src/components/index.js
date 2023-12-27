@@ -1,4 +1,3 @@
-import { StarsCanvas } from "./canvas";
 import Sidebar from "./Sidebar";
 import Header from "./Header";
 import Projects from "./Projects";
@@ -12,5 +11,4 @@ export {
   Projects,
   About,
   Experience, 
-  StarsCanvas,
 };

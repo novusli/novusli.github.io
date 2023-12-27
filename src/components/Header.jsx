@@ -3,7 +3,7 @@ import { styles } from "../styles";
 
 const Header = () => {
   return(
-    <section className="relative w-full mx-auto mt-5">
+    <section className="relative w-full mx-auto">
       <div className={`flex flex-row items-start gap-5 inset-0 mx-auto ${styles.paddingX}`}>
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#915eff]" />
