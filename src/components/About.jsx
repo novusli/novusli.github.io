@@ -28,7 +28,7 @@ const SkillCard = ({name, description, icon }) => {
 
 const About = () => {
   return(
-    <div>
+    <section className="mt-40">
       <div>
         <p className={`${styles.sectionSubText}`}>
           About Me
@@ -36,20 +36,20 @@ const About = () => {
         <h2 className={`${styles.sectionHeadText}`}>
           Introduction
         </h2>
+        <p className="mt-4 text-gray-400 text-[17px] max-w-3xl leading-[30px]">
+          I'm a skilled software developer with experience in TypeScript and
+          JavaScript, and expertise in frameworks like React, Node.js, and
+          Three.js. I'm a quick learner and collaborate closely with clients to
+          create efficient, scalable, and user-friendly solutions that solve
+          real-world problems. Let's work together to bring your ideas to life!
+        </p>
       </div>
-      <p className="mt-4 text-gray-400 text-[17px] max-w-3xl leading-[30px]">
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
-      </p>
       <div className="mt-16 flex flex-wrap">
         {skills.map((skill) => (
           <SkillCard key={skill.name} {...skill} />
         ))}
       </div>
-    </div>
+    </section>
   )
 }
 

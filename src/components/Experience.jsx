@@ -51,7 +51,7 @@ const ExperienceCard = ({ experience }) => {
 
 const Experience = () => {
   return(
-    <section className="my-8">
+    <section className="mt-52">
       <div>
         <p className={`${styles.sectionSubText} text-center`}>
           What I have done so far

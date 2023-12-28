@@ -9,7 +9,7 @@ const styles = {
   paddingY: "sm:py-16 py-6",
   padding: "sm:px-16 px-6 sm:py-16 py-10",
 
-  sectionHeadText: "text-white font-black text-[30px]",
+  sectionHeadText: "text-white font-black text-[34px]",
   sectionSubText: "text-[14px] text-tertiary uppercase tracking-wider",
 }
 

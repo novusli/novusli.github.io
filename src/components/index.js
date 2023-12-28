@@ -1,5 +1,6 @@
 import Sidebar from "./Sidebar";
-import Header from "./Header";
+import Topbar from "./Topbar";
+import Hero from "./Hero";
 import Projects from "./Projects";
 import About from "./About";
 import Experience from "./Experience";
@@ -7,7 +8,8 @@ import Experience from "./Experience";
 
 export {
   Sidebar, 
-  Header,
+  Topbar,
+  Hero,
   Projects,
   About,
   Experience, 

@@ -65,7 +65,7 @@ const ProjectCard = ({
 
 const Projects = () => {
   return(
-    <section className="my-8">
+    <section className="mt-16">
       <div>
         <p className={`${styles.sectionSubText}`}>
           My work

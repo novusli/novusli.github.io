@@ -1,11 +1,11 @@
 import React from "react";
-import { Projects, Header, About, Experience } from "../components";
+import { Hero, Projects, About, Experience } from "../components";
 
 const Home = () => {
   return(
-    <div className="bg-img bg-auto">
+    <div className="bg-primary">
       <div className="px-16">
-      <Header />
+      <Hero />
       <Projects />
       <About />
       <Experience />

@@ -5,7 +5,7 @@ import { sidebarList } from "../constants";
 import { imageSize } from "../styles";
 import { avatar } from "../assets";
 import { ImHome } from "react-icons/im";
-import { MdMenu, MdOutlineDarkMode, MdLightMode } from "react-icons/md";
+import { MdMenu } from "react-icons/md";
 
 const Sidebar = () => {
     // isCollapsed mean the sidebar is closed
@@ -49,12 +49,7 @@ const Sidebar = () => {
           Python Developer
         </h2>
       </div>
-      {/* Light/dark mode button */}
-      <div className="w-full flex justify-center">
-        <div className="rounded-full w-8 h-8 flex justify-center items-center cursor-pointer hover:bg-gray-600">
-          <MdOutlineDarkMode className="w-5 h-5 text-white" /> 
-        </div>
-      </div>
+
       {/* Sidebar List Section */}
       <div className={`${!isCollapsed && "pl-16"} mt-4  flex flex-col gap-4 relative`}>
         <Link to="/" className="group flex text-sm gap-3.5 font-medium p-2 text-white hover:bg-gray-600 rounded-md">
