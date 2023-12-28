@@ -16,7 +16,9 @@ import {
   tailwind,
   python,
   django,
-  postgresql
+  postgresql,
+  aws,
+  wp,
 } from "../assets";
 
 export const sidebarList = [
@@ -125,14 +127,14 @@ const skills = [
     icon: javascript,
   },
   {
-    name: "Python",
-    description: "4 years of web development",
-    icon: python,
-  },
-  {
     name: "React.js",
     description: "2 years of web development",
     icon: reactjs,
+  },
+  {
+    name: "Tailwind",
+    description: "2 years of web development",
+    icon: tailwind,
   },
   {
     name: "Node.js",
@@ -140,24 +142,35 @@ const skills = [
     icon: nodejs,
   },
   {
-    name: "Django",
-    description: "2 years of web development",
-    icon: django,
-  },
-  {
     name: "PostgreSQL",
     description: "2 years of web development",
     icon: postgresql,
+  },
+  {
+    name: "Python",
+    description: "4 years of web development",
+    icon: python,
+  },
+  {
+    name: "Django",
+    description: "2 years of web development",
+    icon: django,
   },
   {
     name: "Git",
     description: "2 years of web development",
     icon: git,
   },
+  
   {
-    name: "Tailwind",
+    name: "AWS",
     description: "2 years of web development",
-    icon: tailwind,
+    icon: aws,
+  },
+  {
+    name: "WordPress",
+    description: "2 years of web development",
+    icon: wp,
   },
 ];
 

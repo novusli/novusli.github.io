@@ -17,6 +17,8 @@ import python from "./tech/python.png";
 import cpp from "./tech/cpp.png";
 import django from "./tech/django.png";
 import postgresql from "./tech/postgresql.png";
+import aws from "./tech/aws.png";
+import wp from "./tech/wp.png";
 
 import avatar from "./avatar/avatar.png";
 
@@ -49,6 +51,8 @@ export {
   cpp,
   django,
   postgresql,
+  aws,
+  wp,
   meta,
   shopify,
   starbucks,
