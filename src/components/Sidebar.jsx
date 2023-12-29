@@ -27,10 +27,13 @@ const Sidebar = () => {
         >
           Portfolio
         </h2>
-        <MdMenu
-          className="h-6 w-6 cursor-pointer text-white" 
-          onClick={() => setIsCollapsed(!isCollapsed)}
-        />
+        <div className="h-8 w-8 cursor-pointer hover:bg-gray-600 rounded-full flex  justify-center items-center">
+          <MdMenu
+            className="h-6 w-6 text-white" 
+            onClick={() => setIsCollapsed(!isCollapsed)}
+          />
+        </div>
+        
       </div>
       {/* Info Section */}
       <div className={`${isCollapsed && "hidden"} flex flex-col m-2 w-full items-center`}>
@@ -83,6 +86,7 @@ const Sidebar = () => {
             >
               {listItem?.name}
             </h2>
+            {/* hover slide in tag */}
             <h2 className={`${!isCollapsed && "hidden"} absolute left-48 bg-white font-semibold whitespace-pre
             text-gray-900 rounded-md drop-shadow-lg px-0 py-0 w-0 overflow-hidden group-hover:w-fit
             group-hover:px-2 group-hover:py-1 group-hover:left-14 group-hover:duration-300 `}>
